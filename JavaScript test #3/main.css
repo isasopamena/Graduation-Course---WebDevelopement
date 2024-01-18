@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "MilkMango";
+    src: url(MilkMango.ttf);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: #D9C5B4;
+    color: #BA906A;
+  }
+
+h1 {
+    position: relative;
+    font-family: "MilkMango", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    padding-left: 15vw;
+    overflow: hidden;
+}
+
+h1 .box {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    background: #A6431F;
+    height: 1vw;  
+    z-index: -1;
+}
+
+h1 .fivestar {
+    display: inline-block;
+
+}
