@@ -1,7 +1,7 @@
 # Graduation-Course---WebPrgramming
 All products made during the course. 
 
-I have tried several different online tutorials to learn more about how to work with GSAP. This was my first time trying and learning about GSAP. I did have a bit of knowledge of HTML and CSS, but working with Javascript/GSAP is completely new. I skipped doing research first and went right into testing with a tutorial. I was very happy when my first animation was a success. The next tutorial was harder to follow, but also worked. I didn't understand the GSAP part yet. I saw what happened, but not the effect it has when putting in the code. When I tried a tutorial with a timeline, I started understanding it more. I have tried 10 different projects with text and images. 
+I have tried several different online tutorials to learn more about how to work with GSAP. This was my first time trying and learning about GSAP. I did have a bit of knowledge of HTML and CSS, but working with Javascript/GSAP is completely new. I skipped doing research first and went right into testing with different tutorials. I have tried 10 different projects with text and images. 
 
 **Tutorial and links used:**
 Tutorial used: Text reveal animation: https://www.youtube.com/watch?v=va1RrFr-gms
