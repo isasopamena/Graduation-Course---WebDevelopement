@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "AgainstR";
+    src: url(/fonts/againstregular.ttf);
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+}
+
+.header {
+    margin-top: 100px;
+    margin-left: 700px;
+    font-family: "AgainstR";
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: #c5c0b2;
+}
+
+.images {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+}
+
+.img {
+	width: 140px;
+	height: 180px;
+}
+
+.img-1 {
+	transform: scale(1.2);
+	background: url(/images/image1.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.img-2 {
+	transform: scale(1.4);
+	background: url(/images/image2.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.img-3 {
+	transform: scale(1.2);
+	background: url(/images/image3.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.img-4 {
+	transform: scale(1.1);
+	background: url(/images/image4.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.img-5 {
+	transform: scale(1.4);
+	background: url(/images/image5.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.img-6 {
+	transform: scale(1.2);
+	background: url(/images/image6.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.img-7 {
+	transform: scale(1.3);
+	background: url(/images/image7.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.img-8 {
+	transform: scale(1.1);
+	background: url(/images/image8.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+	font-family: "AgainstR";
+	text-transform: uppercase;
+}
