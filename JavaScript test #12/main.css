@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "AgainstR";
+    src: url(/fonts/againstregular.ttf);
+  }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: #c5c0b2;
+  overflow: hidden;
+  cursor: url("/cursor.png"), auto !important;
+}
+
+h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "AgainstR";
+  font-size: 100px;
+}
+
+.img {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  transition-timing-function: ease-out;
+}
+
+.img-1 {
+  background: url(images/image1.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 1600ms;
+}
+
+.img-2 {
+  background: url(images/image2.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 1400ms;
+}
+
+.img-3 {
+  background: url(images/image3.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 1200ms;
+}
+
+.img-4 {
+  background: url(images/image4.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 1000ms;
+}
+
+.img-5 {
+  background: url(images/image5.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 800ms;
+}
+
+.img-6 {
+    background: url(images/image6.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    transition-duration: 600ms;
+  }
+
+.img-7 {
+    background: url(images/image7.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    transition-duration: 400ms;
+  }
+
+.img-8 {
+    background: url(images/image8.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    transition-duration: 200ms;
+  }
+
+.site-logo {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: "AgainstR";
+	font-size: 24px;
+	line-height: 100px;
+	text-transform: uppercase;
+    color: white;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	line-height: 100px;
+    color: white;
+}
