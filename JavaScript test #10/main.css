@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "AgainstR";
+    src: url(/fonts/againstregular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #c5c0b2;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "AgainstR";
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 100px;
+    color: #6d6458;
+  }
+  
+  .site-menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    margin-left: 60px;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid red; */
+    width: 450px;
+    height: 550px;
+  }
+  
+  .block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .b-1 {
+    background: url("./images/image1.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-2 {
+    background: url("./images/image2.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-3 {
+    background: url("./images/image3.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-4 {
+    background: url("./images/image4.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-5 {
+    background: url("./images/image5.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-6 {
+    background: url("./images/image6.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-7 {
+    background: url("./images/image7.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+
+  .b-8 {
+    background: url("./images/image8.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+
+  .b-9 {
+    background: url("./images/imageIsa.png") 50% 50% no-repeat;
+    background-size: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    bottom: -10rem;
+    background: #c5c0b2;
+  }
+  
+  .title {
+    margin-top: 20rem;
+    text-align: center;
+    font-family: "AgainstR";
+    font-size: 6em;
+    color: #393833;
+    overflow: hidden;
+  }
+  
+  .title .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
