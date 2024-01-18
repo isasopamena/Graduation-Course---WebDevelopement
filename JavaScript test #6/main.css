@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "MilkMango";
+    src: url(MilkMango.ttf);
+  }
+
+body {
+    background: #D9C5B4;
+    margin-left: 45px;
+    margin-top: 20px;
+    align-items: center;
+
+   }   
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr;
+}
+
+img {
+    height: 150px;
+    width: 100px;
+    margin: 0;
+}
+
+.intro-tekst {
+    display: inline-block;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 310px;
+}
+
+h1 {
+    font-family: "MilkMango";
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 5px palevioletred;
+}
+
+
+
+
