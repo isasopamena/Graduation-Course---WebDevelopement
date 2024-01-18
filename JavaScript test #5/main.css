@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "MilkMango";
+    src: url(MilkMango.ttf);
+  }
+
+body {
+    height: 100vh;
+    font-family: "MilkMango";
+    background:#D9C5B4;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh; 
+    padding: 3em;
+    text-align: center;
+
+    h1 {
+        font-size: 5rem;
+        color: white;   
+    }
+}
+
+.overlay {
+    background-image: url(/images/BoekAchtergrond.png);
+    filter: grayscale(100%);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  
+     
+    clip-path: circle(100px at 50% 50%);
+    clip-path: circle(100px at var(--x, 50%) var(--y, 50%));
+    transition: clip-path 100ms;
+}
+
+.shadowtekst{
+    color: pink;
+    text-shadow: 2px 5px palevioletred;
+}
+.shadowtekst-1{
+  transform: translateY(-2000px);
+}
+
+.shadowtekst-2{
+    font-size: 60px;
+    transform: translateY(2000px);
+    text-shadow: 2px 5px palevioletred;
+  }
+
+span {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 300px; 
+}
+
+svg {
+    margin: 1em;
+    fill: black;
+}
+
+.is-open {
+    clip-path: circle(200% at 100% 100%);
+    transition: clip-path 1.3s;
+    transition-timing-function: cubic-bezier(1,-0.01,.01,.99);
+}
