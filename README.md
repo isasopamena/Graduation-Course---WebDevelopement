@@ -25,7 +25,7 @@ Split-text-js npm: https://www.npmjs.com/package/split-text  Om alle woorden ap
 
 Tutorial used: Awesome Mouse Spotlight Effect: https://www.youtube.com/watch?v=y6z8MYjZ_J8
 
-Text shadow effect: icketmaster.nl/event/jason-derulo-nu-king-tour-tickets/296307?CL_ORIGIN=ORIGIN2
+Text shadow effect: https://www.w3schools.com/css/css3_shadows.asp
 
 Text transform: om de tekst pas later in beeld te krijgen. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX
 
