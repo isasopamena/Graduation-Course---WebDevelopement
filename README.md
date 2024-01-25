@@ -1,7 +1,8 @@
 # Graduation-Course---WebPrgramming
-All products made during the course. 
+All products were made during my Graduation Course at Fontys Academy for the Creative Economy.
 
-I have tried several different online tutorials to learn more about how to work with GSAP. This was my first time trying and learning about GSAP. I did have a bit of knowledge of HTML and CSS, but working with Javascript/GSAP is completely new. I skipped doing research first and went right into testing with different tutorials. I have tried 10 different projects with text and images. 
+I have tried several different online tutorials to learn more about how to work with GSAP. This was my first time trying and learning about GSAP. I did have a bit of knowledge of HTML and CSS, but working with Javascript/GSAP is completely new. I skipped doing research first and went right into testing with different tutorials. I have tried 10 different projects with text and images animations. 
+
 
 **Tutorial and links used:**
 Tutorial used: Text reveal animation: https://www.youtube.com/watch?v=va1RrFr-gms
